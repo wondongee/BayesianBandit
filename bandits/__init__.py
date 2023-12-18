@@ -1,5 +1,4 @@
-from .agent import Agent, GradientAgent, BetaAgent
-from .bandit import GaussianBandit, BinomialBandit, BernoulliBandit
+from .agent import Agent, NormalAgent, NormalAgent_disc1, NormalAgent_disc2
+from .bandit import GaussianBandit
 from .environment import Environment
-from .policy import (EpsilonGreedyPolicy, GreedyPolicy, RandomPolicy, UCBPolicy,
-                     SoftmaxPolicy)
+from .policy import (EpsilonGreedyPolicy, GreedyPolicy, UCBPolicy)
